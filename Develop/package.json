@@ -1,14 +1,21 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazbustami/Challenge9.git"
+
+  },
+
+  "keywords": [],
+  "author": "Yasmin Bustami",
+  "license": "Apache 2.0",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "description": ""
 }

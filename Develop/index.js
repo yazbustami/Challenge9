@@ -37,7 +37,7 @@ const questions = [{
     message: "What is your email address?",
     name: "Email"
 }, {
-    type: "input",
+    type: "list",
     message: "What's the License used?",
     choices: ["MIT", "GNU GPL v3", "BSD 3", "Apache 2.0", "NA"],
     name: "License"
@@ -45,21 +45,27 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err){
+    fs.writeFile(fileName, data, function (err) {
         if (err) {
             return console.log(err)
         } else {
             console.log("Success")
         }
-        })
+    })
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function (data) {
-        writeToFile("./utils/README.md", generateMarkdown(data));
-    })
+        .then(function (answers) {
+            console.log(answers); // sanity check
+            // insert the answers into a string that looks like markdown
+            // pass the data to the func that does that for me
+            // store the returning string in a variable to use later
+            const generatedMarkdownAsString = generateMarkdown(answers);
+            // write that md string to a md file using your wrapper function
+            writeToFile("./utils/README.md", generatedMarkdownAsString);
+        })
 }
 
 // Function call to initialize app
