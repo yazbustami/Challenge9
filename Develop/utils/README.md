@@ -1,6 +1,6 @@
 
 
-  # dfhsf]
+  # ReadMe Genrator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -16,26 +16,30 @@
 
 
 ## Description
-grgds
+The purpose of this project was to create a readme generator while only running commands through a terminal.
 
 ## Installation
-tgdr
+fs and inquirer
 
 ## Usage
-thytyh
+when code is complete, open terminal, run "node index.js", answer questions, then done!
 
 ## Contribution
 How Can I/Others Contribute to this?
-hyth
+Follow the questions, answer, then you should be set
 
 ## Test Instructions
 Example:
-eyfg
+run "node index.js" in terminal and complete questions
 
 ## Contact
 Contact Creator:
-[GitHub](https://github.com/rtery)
-[Email](mailto:rtyy)
+[GitHub](https://github.com/Yazbustami)
+[Email](mailto:bustamiyasmin@gmail.com)
 
 ## License
 [MIT](https://opensource.org/licenses/MIT) was the license used to create project. Click to learn more.
+
+LINK TO VIDEO WALKTHROUGH: https://drive.google.com/file/d/1qA4nnzBSrl5gJ33mm9M1aJxyBLgHoxFi/view
+
+## TUTORED BY BYRON BROWN NORTHWESTERN TUTOR ON 10/28/2022
